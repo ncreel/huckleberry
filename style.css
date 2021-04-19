@@ -7,6 +7,11 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
+}
+
+main{
+  min-height: 100%;
 }
 
 header {
@@ -18,6 +23,7 @@ header {
 
 main{
   background-color: hsl(0deg, 0%, 60%);
+  padding-top: 64px;
 }
 
 strong{
@@ -31,6 +37,7 @@ strong{
   border-color: hsl(0deg, 0%, 30%);
   padding: 16px;
   margin-left: -16px;
+  font-size: 1.25rem;
 }
 
 .indented-heading{
@@ -40,20 +47,30 @@ strong{
   border-bottom-width: 8px;
   width: -moz-fit-content;
   width: fit-content;
-  padding: 16px 32px;
-  margin-left: -32px;
+  padding: 24px 40px;
+  margin-left: -40px;
   margin-top: -8px;
   box-decoration-break: clone;
+  font-size: 1.5rem;
 }
 
 .intro-chunk{
-  max-width:40%;
+  max-width: 60%;
+  font-size: 1.5rem;
+  padding-bottom: 32px;
+  line-height: 2rem;
 }
 
 .max-width-wrapper{
   max-width: 768px;
   margin: 0 auto;
   padding: 8px;
+}
+
+.title{
+  font-size: 2rem;
+  padding-bottom: 32px;
+  padding-top: 96px;
 }
 
 /* Add styles here! */
