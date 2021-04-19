@@ -12,6 +12,8 @@ body {
 
 main{
   min-height: 100%;
+  background-color: hsl(0deg, 0%, 60%);
+  padding-top: 64px;
 }
 
 header {
@@ -19,11 +21,6 @@ header {
   border-bottom-width: 8px;
   border-color: hsl(0deg, 0%, 40%);
   background-color: #fff;
-}
-
-main{
-  background-color: hsl(0deg, 0%, 60%);
-  padding-top: 64px;
 }
 
 strong{
