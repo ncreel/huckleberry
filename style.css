@@ -17,7 +17,7 @@ main{
 header {
   border-bottom-style: solid;
   border-bottom-width: 8px;
-  border-color: hsl(0deg, 0%, 30%);
+  border-color: hsl(0deg, 0%, 40%);
   background-color: #fff;
 }
 
@@ -34,9 +34,9 @@ strong{
   background-color: #fff;
   border-bottom-style: solid;
   border-bottom-width: 8px;
-  border-color: hsl(0deg, 0%, 30%);
-  padding: 16px;
-  margin-left: -16px;
+  border-color: hsl(0deg, 0%, 40%);
+  padding: 24px;
+  margin-left: -24px;
   font-size: 1.25rem;
 }
 
@@ -49,12 +49,13 @@ strong{
   width: fit-content;
   padding: 24px 40px;
   margin-left: -40px;
-  margin-top: -8px;
+  margin-top: -16px;
   box-decoration-break: clone;
   font-size: 1.5rem;
 }
 
 .intro-chunk{
+  min-width: 50%;
   max-width: 60%;
   font-size: 1.5rem;
   padding-bottom: 32px;
@@ -62,7 +63,7 @@ strong{
 }
 
 .max-width-wrapper{
-  max-width: 768px;
+  max-width: 736px;
   margin: 0 auto;
   padding: 8px;
 }
